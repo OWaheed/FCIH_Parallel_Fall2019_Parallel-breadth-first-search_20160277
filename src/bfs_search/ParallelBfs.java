@@ -97,8 +97,8 @@ public class ParallelBfs {
                     this.EndAt = this.StartFrom + this.LastThreadNode;
                 } else {
                     this.StartFrom = this.EndAt;//1
-                   // this.EndAt = i == this.numThreads - 2 ? C.size() : this.EndAt + this.numofnodes;//2
-                    this.EndAt =this.EndAt + this.numofnodes;
+                    this.EndAt = i == this.numThreads - 2 ? C.size() : this.EndAt + this.numofnodes;//2
+                   //this.EndAt =this.EndAt + this.numofnodes;
                 }
 
                 
